@@ -81,9 +81,23 @@ p {
 	padding:5px;
 	margin-top:5px;
 	margin-right:5px;
-	background:#4986e7;
 	border-radius:50%;
 }
+
+#sts-rele1{
+background-color:gray;
+}
+
+#sts-rele2{
+background:gray;
+}
+#sts-rele3{
+background:gray;
+}
+#sts-rele4{
+background:gray;
+}
+
 .logo a, .logo img {
 	float:center;
 	width: 150px;
