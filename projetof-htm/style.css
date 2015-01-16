@@ -1,0 +1,203 @@
+/************Resetando**************/
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section { 
+	margin: 0; 
+	padding: 0;
+	border: 0;
+} 
+ol, ul { 
+	list-style: none; 
+}
+header, footer, nav, section, article, hgroup, figure {
+	display: block;	
+}
+legend {
+	display: none;
+}
+
+/**Básico**/
+body{ 
+	font: 100%/1.5 'Arial', sans-serif; 
+	color: #000;
+	background: #fff; 
+	text-align:center;
+}
+
+p{
+	font-weight:bold;
+	font-family:"Arial";
+	font-size:25px;
+	margin-bottom: 0;
+	color: #12A5F4;
+	text-shadow: 0 1px 0 #45668e;
+}
+
+a {
+	text-decoration:none;
+	color: #12A5F4;
+}
+
+a:hover, a:focus {
+	color: #12A5F4;
+	font-weight:bold;
+	text-shadow: 0 1px 0 #45668e;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+	outline: 0;
+}
+
+h1 {
+	font: normal 1.6em/1.3 'Arial', sans-serif;
+	margin-bottom: 0;
+	color: #12A5F4;
+	text-shadow: 0 1px 0 #45668e;
+}
+
+h2 {
+	font-size: 1.2em;
+	font-weight: normal;
+	margin: 0;
+	text-shadow: 0 1px 0 #fff;
+}
+
+h3 {
+	margin: 0;
+	font-weight: normal;
+	text-shadow: 0 1px 0 #fff;
+}
+p {
+	margin: 0 0 1em;
+}
+
+/************Estrutura*************/
+.status-img{
+	float:left;
+	width:20px;
+	height:20px;
+	margin-top:5px;
+	padding:5px;
+}
+.logo a, .logo img {
+	float:center;
+	width: 150px;
+	height:150px;
+}
+
+header[role="banner"] {
+	position: relative;
+	background: #fff; 
+}
+
+header[role="banner"] > div {
+	max-width: 65em;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+/** Menu Quarto/Sala/Cozinha **/
+.nav {
+	margin: 0 -1em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+header[role="banner"] .nav {
+	border-top: 1px solid 72cac8;
+	border-bottom:1px solid 72cac8;
+	clear: left;
+}
+
+.nav li {
+	display: inline-block;
+	position: relative;
+}
+
+
+.nav li a {
+	display: block;
+	padding: 1em;
+	border-left: 1px solid #72cac8;
+}
+
+.nav li:first-child a {
+	border-left: 0;
+}
+
+/**Principal **/
+#principal{
+ text-align:left;
+ margin-top:2em;
+ margin-left:3em;
+ margin-bottom:2em;
+ 
+}
+
+/**Botoes*/
+
+/** Rodapé **/
+.footer {
+	background:#1e8cbe;
+	text-align: center;
+	text-transform: uppercase;
+	clear: both;
+}
+
+.footer > div {
+	max-width: 65em;
+	margin: 0 auto;
+	padding: 0 1em 0;
+	text-align: left;
+	overflow: hidden;
+}
+
+.footer a:hover, .footer a:focus {
+	color: #fff;
+}
+
+.footer .nav {
+	margin: 0;
+}
+
+.footer .nav li a {
+	padding: 0.8em 0.8em 0.5em;
+}
+
+.footer ul {
+	margin-bottom: 1em;
+}
+.footer li {
+	display: inline-block;
+}
+.footer li a {
+	padding-top: 1.2em;
+}
+
+/** Links do Rodapé **/
+.service-links li {
+	margin: 0 0.5em;
+}
+.service-links li:first-child {
+	margin-left: 0;
+}
+.service-links li:last-child {
+	margin-right: 0;
+}
+.service-links li a {
+	border: 0;
+	padding: 0.2em;
+	font-size: 0.7em;
+}
+
+.service-links li.tel a {
+	background: #e1e8ed;
+	background: #6cabe7;
+	color: #e1e8ed;
+	border: 1px solid #e1e8ed;
+	text-align: center;
+	padding: 0.3em 0.7em;
+	border-radius: 0.5em;
+}
