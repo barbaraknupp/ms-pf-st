@@ -1,13 +1,14 @@
 /************Resetando**************/
-html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section { 
+html, body, div, object, h1, h2, h3, h4, h5, h6, p,ol, ul, li,header, footer, nav{ 
 	margin: 0; 
 	padding: 0;
 	border: 0;
 } 
+
 ol, ul { 
 	list-style: none; 
 }
-header, footer, nav, section, article, hgroup, figure {
+header, footer, nav{
 	display: block;	
 }
 legend {
@@ -75,10 +76,13 @@ p {
 /************Estrutura*************/
 .status-img{
 	float:left;
-	width:20px;
-	height:20px;
-	margin-top:5px;
+	width:10px;
+	height:10px;
 	padding:5px;
+	margin-top:5px;
+	margin-right:5px;
+	background:#4986e7;
+	border-radius:50%;
 }
 .logo a, .logo img {
 	float:center;
@@ -106,8 +110,8 @@ header[role="banner"] > div {
 }
 
 header[role="banner"] .nav {
-	border-top: 1px solid 72cac8;
-	border-bottom:1px solid 72cac8;
+	border-top: 1px solid #7acfe1;
+	border-bottom:1px solid #7acfe1;
 	clear: left;
 }
 
@@ -120,7 +124,7 @@ header[role="banner"] .nav {
 .nav li a {
 	display: block;
 	padding: 1em;
-	border-left: 1px solid #72cac8;
+	border-left: 1px solid #7acfe1;
 }
 
 .nav li:first-child a {
